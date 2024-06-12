@@ -1,13 +1,14 @@
-package com.student.spring_student;
+package com.example.cmd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class SpringStudentApplication {
+public class Task02Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringStudentApplication.class, args);
+		SpringApplication.run(Task02Application.class, args);
+		System.out.println("started");
 	}
+
 }
